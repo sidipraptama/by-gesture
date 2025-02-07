@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct By_GestureApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @State var isActive: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ActiveView()
+                .onAppear() {
+                    UIApplication.shared.isIdleTimerDisabled = true
+                    AppDelegate.orientationLock = .portrait
+                }
         }
     }
 }

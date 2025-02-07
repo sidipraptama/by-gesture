@@ -35,16 +35,6 @@
 			path = "By Gesture";
 			sourceTree = "<group>";
 		};
-		9224A2952D390F9200CB85A3 /* By GestureTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "By GestureTests";
-			sourceTree = "<group>";
-		};
-		9224A29F2D390F9200CB85A3 /* By GestureUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "By GestureUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				9224A2842D390F8F00CB85A3 /* By Gesture */,
-				9224A2952D390F9200CB85A3 /* By GestureTests */,
-				9224A29F2D390F9200CB85A3 /* By GestureUITests */,
 				9224A2832D390F8F00CB85A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				9224A2942D390F9200CB85A3 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				9224A2952D390F9200CB85A3 /* By GestureTests */,
-			);
 			name = "By GestureTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				9224A29E2D390F9200CB85A3 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9224A29F2D390F9200CB85A3 /* By GestureUITests */,
 			);
 			name = "By GestureUITests";
 			packageProductDependencies = (
@@ -399,11 +381,14 @@
 				DEVELOPMENT_TEAM = KDM6FL3S9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "By-Gesture-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,11 +413,14 @@
 				DEVELOPMENT_TEAM = KDM6FL3S9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "By-Gesture-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
