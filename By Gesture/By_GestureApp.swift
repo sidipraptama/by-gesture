@@ -14,7 +14,7 @@ struct By_GestureApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ActiveView()
+            MainView()
                 .onAppear() {
                     UIApplication.shared.isIdleTimerDisabled = true
                     AppDelegate.orientationLock = .portrait

@@ -2,7 +2,7 @@ import SwiftUI
 import UIKit
 import AudioToolbox
 
-struct ActiveView: View {
+struct MainView: View {
     @State private var isShowText = false
     @State private var isGone = false
     @State private var isActive = false
@@ -166,8 +166,8 @@ private extension CGSize {
 }
 
 // MARK: - Preview
-struct ActiveView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        ActiveView()
+        MainView()
     }
 }
